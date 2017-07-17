@@ -196,11 +196,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.card-category a {
-    text-decoration: none;
-}
-
-.card-category p {
+.card-category h4 {
     margin: 3px;
 }
 
@@ -268,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.product-category p {
+.product-category h5 {
     padding: 10px;
     border: solid 2px rgb(220, 220, 220);
     border-radius: 40px;
