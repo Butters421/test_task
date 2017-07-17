@@ -1,0 +1,287 @@
+@media (min-width: 300px) {
+    .container {
+        width: 300px;
+    }
+    .card {
+        min-width: 180px;
+    }
+    .title-img {
+        margin-left: 140px;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .category-vs-input {
+        flex-wrap: wrap;
+    }
+    .left {
+        margin: initial !important;
+    }
+}
+
+@media (min-width: 540px) {
+    .container {
+        width: 540px;
+    }
+    .card {
+        min-width: 140px;
+    }
+    .title-img {
+        margin-left: 190px;
+    }
+
+}
+
+@media (min-width: 720px) {
+    .container {
+        width: 720px;
+    }
+    .card {
+        min-width: 200px;
+    }
+    .title-img {
+        margin-left: 260px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .card {
+        min-width: 140px;
+    }
+    .title-img {
+        margin-left: 360px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .card {
+        min-width: 160px;
+    }
+    .title-img {
+        margin-left: 440px;
+    }
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/AvenirNextLTPro-Regular.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/AvenirNextLTPro-Demi.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/AvenirNextLTPro-Bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+html, body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+
+}
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-title {
+    display: flex;
+    width: 300px;
+
+}
+
+.main-title h1 {
+    margin: auto;
+}
+
+.title-img {
+    display: flex;
+    width: 50px;
+    position: absolute;
+
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    border: solid 1px rgb(220, 220, 220);
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+
+}
+
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.category-vs-input {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.right {
+
+}
+
+.input-vs-title {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-self: center;
+}
+
+.input-vs-title input {
+    font-size: 14px;
+}
+
+.title-category {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 100%;
+}
+
+.title-category h2 {
+    display: flex;
+    align-self: center;
+    font-weight: 500;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.cards input {
+    width: 100%;
+    height: 58px;
+    border: 2px solid rgb(220, 220, 220);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 20%;
+    height: 60px;
+    align-items: center;
+    border: 2px solid rgb(220, 220, 220);
+    margin: -1px;
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.card h4 {
+    margin: auto;
+}
+
+
+
+
+.navigation {
+    display: flex;
+    width: 15px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 93%;
+    position: absolute;
+    padding: 0px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(81, 185, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    border-radius: 15px;
+}
+
+.navigation .selected {
+    background-color: rgb(81, 185, 255);
+}
+
+
+.button-continue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(81, 185, 255);
+    color: white;
+    border: none;
+    justify-content: center;
+}
