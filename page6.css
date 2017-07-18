@@ -5,6 +5,9 @@
     .title-img {
         margin-left: 140px;
     }
+    .icon {
+        min-width: 80px;
+    }
 }
 
 @media (min-width: 500px) {
@@ -13,6 +16,9 @@
     }
     .title-img {
         margin-left: 180px;
+    }
+    .icon {
+        min-width: 80px;
     }
 }
 
@@ -23,6 +29,9 @@
     .title-img {
         margin-left: 260px;
     }
+    .icon {
+        min-width: 80px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -32,6 +41,9 @@
     .title-img {
         margin-left: 360px;
     }
+    .icon {
+        min-width: 80px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -40,6 +52,9 @@
     }
     .title-img {
         margin-left: 440px;
+    }
+    .icon {
+        min-width: 80px;
     }
 }
 
